@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Προσωπικό portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #858;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #cbc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>Προσωπικό portfolio</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Home</h1>
+    <p> Σιλβάνα Μπάλλα αριστούχους φοιτήτρια του τμήματος Τεχνικόυ λογισμικού  του Σαεκ Φλώρινας. Με την άριστη γνώση αγγλικών. </p>
+    
+   <h2>About me</h2>
+   <p>Εργασία σε γνωστή επωνυμία μαγαζιών επιδιορθώσεις υπολογιστών επίσης σε θέσει βοηθού κωδικοποιητή ιστοσελίδων.Οι δεξιότητες μου περιλαμβάνουν υπολογιστές γνώσεις σε εφαρμογές γραφείου όπως και την γνώσει γνώσεων προγραμματισμού c++,java και html.</p>
+   <h3>Projects</h3>
+   <p>Κάποια ενδεικτικά Projects που έχω αναλάβει εκ ολοκλήρου είναι η δημιουργία μιας αριθμομηχανής μόνο με την χρήση java και την δημιουργία μιας ιστοσελίδας online αγορών με συνδυασμό html για τα γραφικά τις και c++ για τον κύριο κώδικα.</p>
+  </article>
+</section>
+
+
+
+</body>
+</html>
